@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: i want to install webserver on ubuntu
+    apt:
+     name: apache2
+     state: present
+  - name: i wnat to install tree
+    apt:
+     name: tree
+     state: present
+       
