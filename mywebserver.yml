@@ -6,4 +6,8 @@
     apt:
      name: apache2
      state: present
-     when: ansible_os _family =="Debian" 
+     
+  - name: i want to install webserver on redhat node only
+    yum:
+      name: httpd
+      state: present
