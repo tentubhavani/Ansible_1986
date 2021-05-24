@@ -2,9 +2,9 @@
 - hosts: 172.31.22.133
   become:
   tasks:
-  - nmae: i want to install git
+  - name: i want to install git
     apt:
-      name: {{"item"}}
+      name: "{{ item }}"
       state: present
     loop:
     - git
