@@ -1,8 +1,8 @@
 ---
 - hosts: 172.31.22.133
-  become:
+  become: yes
   tasks:
-  - name: i want to install git
+  - name: install git
     apt:
       name: "{{ item }}"
       state: present
