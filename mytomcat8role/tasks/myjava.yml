@@ -1,7 +1,7 @@
 ---
  - name: update
    apt:
-   update_cache: yes
+     update_cache: yes
 
  - name: install java8 on ubuntu node
    apt:
