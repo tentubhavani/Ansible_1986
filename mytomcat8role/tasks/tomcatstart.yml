@@ -1,8 +1,9 @@
 ---
-- name: tomcat demon reload
+- name: tomcat daemon reload
   systemd:
    daemon_reload: yes
    name: tomcat
+   
 - name: tomcat start 
   systemd:
    name: tomcat
