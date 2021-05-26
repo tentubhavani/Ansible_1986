@@ -11,6 +11,6 @@
 - include_tasks: tomcatuser.yml
 - include_tasks: tomcatrestart.yml
 - include_tasks: appdeploy.yml
-- include_tasks: tomcatrestart.yaml
+
 
 
