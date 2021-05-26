@@ -18,7 +18,7 @@
     path: /opt/tomcat/conf/
     state: directory
     mode: g+x
-    owner: tomcat
+  
 
 - name: Make the tomcat user the owner of the work
   file:
