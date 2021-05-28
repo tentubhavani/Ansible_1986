@@ -1,6 +1,6 @@
 ---
 - hosts: localhost
-  become: all
+  become: yes
   tasks:
   - name: create ansible ubuntu nodes
     ec2:
