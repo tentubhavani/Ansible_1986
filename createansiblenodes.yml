@@ -1,5 +1,5 @@
 ---
-- hosts: local host
+- hosts: localhost
   become: all
   tasks:
   - name: create ansible ubuntu nodes
