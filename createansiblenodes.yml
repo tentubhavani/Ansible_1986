@@ -1,0 +1,17 @@
+---
+- hosts: local host
+  become: all
+  tasks:
+  - name: create ansible ubuntu nodes
+    ec2:
+      key_name: ramesh_1986
+      instance_type: t2.micro
+      image: ami-015aa383e416776dc
+      wait: yes
+      group: ubuntu_sg3
+      region: us-west-2
+      count: 2
+      vpc_subnet_id: subnet-4df57135
+      assign_public_ip: yes
+      instance_tags:
+        Name: myAnsibleUbuntuNode
