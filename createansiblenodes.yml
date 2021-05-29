@@ -6,9 +6,9 @@
     ec2:
       key_name: ramesh_1986
       instance_type: t2.micro
-      image: ami-015aa383e416776dc
+      image: ami-0f1f549db6e894458
       wait: yes
-      group: ubuntu_sg3
+      group: sg-0f43aff0b259d40fc
       region: us-west-2
       count: 2
       vpc_subnet_id: subnet-4df57135
