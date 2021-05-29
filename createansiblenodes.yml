@@ -8,7 +8,7 @@
       instance_type: t2.micro
       image: ami-0f1f549db6e894458
       wait: yes
-      group: sg-0f43aff0b259d40fc
+      group: launch-wizard-16
       region: us-west-2
       count: 2
       vpc_subnet_id: subnet-4df57135
