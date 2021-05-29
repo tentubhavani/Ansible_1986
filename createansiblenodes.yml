@@ -14,4 +14,4 @@
       vpc_subnet_id: subnet-4df57135
       assign_public_ip: yes
       instance_tags:
-        Name: myAnsibleUbuntuNode
+        Name: Ansible_Ubuntu_Node
