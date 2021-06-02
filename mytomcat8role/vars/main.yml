@@ -1,2 +1,4 @@
 ---
-# vars file for mytomcat8role
+# vars file for 
+
+mysqlpassword: bhavani*123
